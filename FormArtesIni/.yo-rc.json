@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.21.0",
+    "sdksVersions": {},
+    "version": "1.22.1",
+    "libraryName": "spfx-form-arte",
+    "libraryId": "56cf7733-623e-4aae-8a5b-f16afc9e31dd",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfxFormArte",
+    "solutionShortDescription": "spfxFormArte description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-form-arte-client-side-solution",
+    "id": "56cf7733-623e-4aae-8a5b-f16afc9e31dd",
+    "version": "2.0.0.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfxFormArte description"
+      },
+      "longDescription": {
+        "default": "spfxFormArte description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-form-arte Feature",
+        "description": "The feature that activates elements of the spfx-form-arte solution.",
+        "id": "647f7063-caec-473b-939b-6a808f414fea",
+        "version": "1.0.0.1"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-form-arte.sppkg"
+  }
+}
+

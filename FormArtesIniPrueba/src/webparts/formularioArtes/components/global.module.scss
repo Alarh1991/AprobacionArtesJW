@@ -1,0 +1,82 @@
+/* src/webparts/bandejas/global/global.module.scss */
+
+
+
+.bdBase {
+  background: transparent;
+  font-family: "NewRubrik", "Segoe UI", Arial, sans-serif;
+}
+
+.bdFullWidth {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  min-height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+}
+
+.bdInner80 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bdInner100 {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media (max-width: 992px) {
+  .bdInner80 { width: 100%; }
+}
+
+/* Helpers internos (si usas PeoplePicker u otros) */
+.bdBase :global(.ms-PeoplePicker),
+.bdBase :global(.ms-BasePicker) { width: 100%; }
+
+/* Si vas a usar container-fluid dentro del webpart */
+.bdBase :global(.container-fluid) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* ===== Reglas GLOBALes para Canvas ===== */
+:global(.CanvasComponent) {
+  --page-max-width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+:global([data-automation-id="CanvasZone-SectionContainer"]) {
+  max-width: none !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+:global(.CanvasComponent.LCS .CanvasSection-col) {
+  max-width: none !important;
+  width: 100% !important;
+  flex: 1 1 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+:global(.SPCanvas-canvas),
+:global(.CanvasZone),
+:global(.CanvasSection) {
+  max-width: none !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+:global(.ControlZone),
+:global(.ControlZone--control) {
+  max-width: none !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
